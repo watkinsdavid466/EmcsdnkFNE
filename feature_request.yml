@@ -4,8 +4,6 @@ title: "[Feature] "
 body:
   - type: checkboxes
     id: ensure
-    attributes:
-      label: Verify steps
       description: "
 在提交之前，请确认
 Please verify that you've followed these steps
@@ -29,7 +27,6 @@ I have read the [documentation](https://github.com/Dreamacro/clash/wiki/) and wa
       required: true
   - type: textarea
     attributes:
-      label: Possible Solution
       description: "
 此项非必须，但是如果你有想法的话欢迎提出。
 Not obligatory, but suggest a fix/reason for the bug, or ideas how to implement the addition or change
